@@ -49,7 +49,7 @@ jobs:
         echo "账号和密码个数不对应"
         exit 1
         else
-        echo "共有 $user_num 个账号，即将开始签到"
+        echo "共有 $user_num 个账号，即将c开始签到"
         fi
 
         random_time=$(($RANDOM % 45))
